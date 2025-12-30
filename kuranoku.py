@@ -193,7 +193,7 @@ class QuranViewer(Gtk.Window):
         except: return []
 
 if __name__ == "__main__":
-    RESIM_DIZINI = "/opt/KuranOku/Diyanet"
+    RESIM_DIZINI = "./Diyanet"
     win = QuranViewer(RESIM_DIZINI)
     win.connect("destroy", Gtk.main_quit)
     win.show_all()
